@@ -1,5 +1,5 @@
 # CLF
-Because of the need of scientific research, I had the honor to read CLF and tried to reproduced the paper. This Repository is a trial of reproduction of the paper:  
+Because of the need of scientific research, I had the honor to read *CLF* and tried to reproduce the paper. This Repository is a trial of reproduction of the paper:  
   >CLF: Zhang J , Yu P S . Integrated anchor and social link predictions across social networks[C] International Conference on Artificial Intelligence. AAAI Press, 2015.
 
 The *CLF* can either predict social links among users in the another network as well as anchor links aligning two networks.
