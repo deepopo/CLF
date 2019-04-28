@@ -28,4 +28,4 @@ In order to evaluate the effect anchor links prediction, we use Top@30 and AUC t
 If there are some factual errors, please let me know.
 ## Reference  
 [1] Adriana Prado, Marc Plantevit, Celine Robardet, and J. F. Boulicaut. Mining graph topological patterns: Finding covariations among vertex descriptors. IEEE Transactions on Knowledge & Data Engineering, 25(9):2090–2104, 2013.  
-[2] CLF: Zhang J , Yu P S . Integrated anchor and social link predictions across social networks[C] International Conference on Artificial Intelligence. AAAI Press, 2015.
+[2] Zhang J , Yu P S . Integrated anchor and social link predictions across social networks[C] International Conference on Artificial Intelligence. AAAI Press, 2015.
