@@ -22,6 +22,9 @@ If you need to modify the parameters, the complete execution command is (The par
 You can check out the other options available to use with *CLF* using:  
 ``python main.py --help``  
 
+### Evaluate
+In order to evaluate the effect anchor links prediction, we use Top@30 and AUC to show the results.
+
 If there are some factual errors, please let me know.
 ## Reference  
 [1] Adriana Prado, Marc Plantevit, Celine Robardet, and J. F. Boulicaut. Mining graph topological patterns: Finding covariations among vertex descriptors. IEEE Transactions on Knowledge & Data Engineering, 25(9):2090–2104, 2013.  
