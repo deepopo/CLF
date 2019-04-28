@@ -9,13 +9,13 @@ Before to execute *CLF*, you should install the following packages:
 The version of python is ``python==3.7.2`` and ``networkx==2.2``, ``sklearn==0.20.3``, but they are not mandatory unless it doesn't work.  
 ## Basic usage  
 ### Data  
-We provide an DBLP dataset and its distributed copy in ./graph called ``G1`` and ``G2`` which are extracted from [Prado et al., 2013] to show the effect of *CLF*. The data are named as ``DBLP1.edges`` and ``DBLP2.edges`` respectively, in which each line consists of node ``ui`` and node ``uj`` within one network:  
+We provide an DBLP dataset and its distributed copy in ./graph/ called ``G1`` and ``G2`` which are extracted from [Prado et al., 2013] to show the effect of *CLF*. The data are named as ``DBLP1.edges`` and ``DBLP2.edges`` respectively, in which each line consists of node ``ui`` and node ``uj`` within one network:  
 ``ui,uj``  
-In addition, the ground truth alignments are also needed to compute the alignment accuracy. The file is named ``DBLP.alignment`` in ./alignment, in which each line consists of node ``u_i`` in G1 and node ``v_i`` in G2:  
+In addition, the ground truth alignments are also needed to compute the alignment accuracy. The file is named as ``DBLP.alignment`` in ./alignment/, in which each line consists of node ``u_i`` in G1 and node ``v_i`` in G2:  
 ``u_i,v_i``  
 
 ### Example  
-In order to run CLF on the DBLP & distributed copy, execute the following command in ./src:  
+In order to run CLF on the DBLP & distributed copy, execute the following command in ./src/:  
 ``python main.py --filename DBLP``  
 If you need to modify the parameters, the complete execution command is (The parameters are optimal ones given in the paper):  
 ``python main.py --filename DBLP --align_train_prop 0.2 --alpha1 0.6 --alpha2 0.6 --c 0.1``  
