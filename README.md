@@ -11,7 +11,7 @@ The version of python is ``python==3.7.2`` and ``networkx==2.2``, ``sklearn==0.2
 ### Data  
 We provide an DBLP dataset and its distributed copy in ./graph/ called ``G1`` and ``G2`` which are extracted from [Prado et al., 2013] to show the effect of *CLF*. The data are named as ``DBLP1.edges`` and ``DBLP2.edges`` respectively, in which each line consists of node ``ui`` and node ``uj`` within one network:  
 ``ui,uj``  
-In addition, the ground truth alignments are also needed to compute the alignment accuracy. The file is named as ``DBLP.alignment`` in ./alignment/, in which each line consists of node ``ui`` in G1 and node ``vi`` in G2:  
+In addition, the ground truth alignments are also needed to compute the alignment accuracy. The file is named as ``DBLP.alignment`` in ./alignment/, in which each line consists of node ``ui`` in ``G1`` and node ``vi`` in ``G2``:  
 ``ui,vi``  
 
 ### Example  
