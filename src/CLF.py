@@ -30,7 +30,7 @@ def CLF(G1, G2, alignment_dict, alignment_dict_reversed, alpha1, alpha2, c, alig
     W12 = np.zeros([G1.number_of_nodes(), G2.number_of_nodes()], dtype='float')
     for i in range(G1.number_of_nodes()):
         node = G1_nodes[i]
-        if node in alignment_dict.keys() and node not in seed_list1:
+        if node in alignment_dict.keys() and node in seed_list1:
             W12[i] = W2[G2_dict[alignment_dict[node]]]
     W21 = np.zeros([G2.number_of_nodes(), G1.number_of_nodes()], dtype='float')
     for i in range(G2.number_of_nodes()):
